@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  
+  array.each do |square|
+    new_array = []
+    square ** 2 
+    new_array.unshift(square)
+  end
 end
+
+
